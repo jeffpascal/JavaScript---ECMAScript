@@ -61,3 +61,14 @@ output:
 ```
 - the const in the if statement is locked to that if statement.
 
+- in this example
+
+```js
+function calcTaxES6(income, state = "Florida") {
+
+  console.log("Calculating tax for the resident of " + state +
+                                  " with the income " + income);
+}
+
+calcTaxES6(50000);
+```
