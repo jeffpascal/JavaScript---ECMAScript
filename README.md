@@ -14,3 +14,6 @@ function foo(){
 }
 ```
 
+When you use let instead of var it introduces code block. (there is no hoisting)
+- const is like let, but can be initialized only once
+
